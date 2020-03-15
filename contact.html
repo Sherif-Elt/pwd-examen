@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tablet.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <title>Contact</title>
+</head>
+
+<body>
+    <div id="nav-bar">
+        <div class="container">
+            <div class="nav">
+
+                <div class="logo">
+                    <a href="index.html"><img src="./images/logo.png" alt="Bordeaux Logo"></a>
+                </div>
+
+                <div class="menu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="cultuur.html">Cultuur</a>
+
+                            <ul>
+                                <li><a href="musea.html">Musea</a></li>
+                                <li><a href="monumenten.html">Monumenten</a></li>
+                                <li><a href="kerken.html">Kerken</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Culinair</a>
+                            <ul>
+                                <li><a href="#">Gastronomi</a></li>
+                                <li><a href="#">Wijn, Excursies</a></li>
+                                <li><a href="#">Restaurants</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="albums.html">Fotoalbum</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav-text">
+                    <h3>Bordeaux</h3>
+                    <p>Office de Tourisme</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact form -->
+
+    <section id="contact-form">
+        <div class="container">
+
+            <h2><span class="text-main">Contact</span> Us</h2>
+            <p class="lead">Please fill out the form below to contact us</p>
+
+            <form name="contact" method="POST" data-netlify="true">
+
+                <div class="form-group">
+
+                    <label for="name" class="lead">Name *</label>
+                    <input type="text" name="name" id="name" required>
+
+                    <label for="email" class="lead">Email *</label>
+                    <input type="email" name="email" id="email" required>
+
+
+                    <label for="message" class="lead">Message *</label>
+                    <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+                </div>
+
+                <button type="submit" class="btn" value="submit">Submit</button>
+
+            </form>
+        </div>
+    </section>
+
+    <!-- map and adresse -->
+
+    <!-- map -->
+    <div id="map">
+        <div class="container">
+            <div class="map-kart">
+                <div class="map"><iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d287.7227378421572!2d-0.5744565936193738!3d44.84359520640113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5527da3c8abe8d%3A0x73b5aa6f09ef1fd1!2sTourist%20Information%20Office!5e0!3m2!1snl!2sat!4v1583936445421!5m2!1snl!2sat"
+                        width="500" height="400" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe></div>
+
+                <div class="adress-img"></div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- adres -->
+
+    <div id="adres">
+        <div class="container">
+            <h2>VVV Kantoor Bordeaux adres:</h2>
+            <div class="adres-text">
+                <p>12 Cours du 30 Juillet</p>
+                <p>33000 Bordeaux</p>
+                <p>Frankrijk</p>
+                <h4>opening tijd:</h4>
+                <p>9.00 tot 18.30 uur.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="main-footer">
+                <div class="block1">
+                    <ul>
+                        <li><a href="sitemap.html">Sitemap</a></li>
+                        <li><a href="index.html">Home</a></li>
+
+                        <li><a href="cultuur.html">Cultuur</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="block2">
+                    <ul>
+                        <li><a href="cultuur.html">Culinair</a></li>
+
+                        <li><a href="albums.html">Fotoalbum</a></li>
+
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="block3">
+                    <div class="adres-footer">
+
+                        <h3>VVV Kantoor Bordeaux adres:</h3>
+                        <div class="adres-text">
+                            <p>12 Cours du 30 Juillet</p>
+                            <p>33000 Bordeaux</p>
+                            <p>Frankrijk</p>
+                            <h4>opening tijd:</h4>
+                            <p>9.00 TOT 18.30 UUR.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copy-right">
+                <p>vvv Bordeaux kantoor © 2019, All RIghts Reserved</p>
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>

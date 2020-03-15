@@ -1,0 +1,51 @@
+@media screen and (max-width: 786px) {
+
+    .container {
+        padding: 0 1rem;
+    }
+   
+    #nav-bar {
+        background-color: #3249bc;
+        max-width: 100%;
+    }
+  
+
+    #nav-bar .nav img {
+        width: 40px;
+    }
+
+    #nav-bar ul li a {
+        padding: 0 0.3rem;
+        font-size: 0.7rem;
+    }
+
+    #cultuur .cultuur-section .gallery-musea {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1rem;
+        padding: 1rem;
+    }
+
+    #cultuur .background {
+        display: block;
+    }
+    #cultuur .cultuur-section .gallery-monumenten {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    }
+
+    #cultuur .cultuur-section .gallery-kerken {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    padding: 1rem;
+}
+
+#sitemap .sitemap-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+}
+
+}
